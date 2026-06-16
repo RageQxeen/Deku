@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #0a0f2b;
+    background-color: #0a2b0a;
     color: #f0f0f0;
     line-height: 1.6;
     overflow-x: hidden;
@@ -20,13 +20,13 @@ body {
 
 /* Update the header to have relative positioning */
 header {
-    background: linear-gradient(135deg, #0a0f2b 0%, #1a2b5f 100%);
+    background: linear-gradient(135deg, #0a2b0a 0%, #1a4b2a 100%);
     background-image: url('4.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
     padding: 20px 0;
-    border-bottom: 3px solid #00aaff;
+    border-bottom: 3px solid #00ff00;
     position: relative;
     overflow: hidden;
 }
@@ -39,7 +39,7 @@ nav {
     width: 100%;
     margin-top: 0; /* Remove the previous margin-top */
     padding: 15px 0;
-    background-color: rgba(10, 15, 43, 0.8); /* Semi-transparent background */
+    background-color: rgba(11, 43, 10, 0.8); /* Semi-transparent background */
     backdrop-filter: blur(5px); /* Optional: adds blur effect */
 }
 
@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-links a {
-    color: #aaddff;
+    color: #aaffb8;
     text-decoration: none;
     font-size: 1.2rem;
     padding: 10px 20px;
@@ -70,7 +70,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: rgba(0, 170, 255, 0.2);
+    background-color: rgba(0, 255, 21, 0.2);
     color: #ffffff;
 }
 
@@ -81,7 +81,7 @@ nav {
 }
 
 .logo-icon {
-    color: #00aaff;
+    color: #00ff0d;
     font-size: 2.5rem;
     text-shadow: 0 0 10px rgba(0, 170, 255, 0.7);
 }
@@ -89,73 +89,73 @@ nav {
 .logo-text h1 {
     font-size: 2.5rem;
     color: #ffffff;
-    text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+    text-shadow: 0 0 10px rgba(9, 255, 0, 0.5);
 }
 
 .logo-text p {
-    color: #aaddff;
+    color: #b1ffaa;
     font-size: 1.1rem;
 }
 
 .hero-tag {
-    background-color: #00aaff;
+    background-color: #00ff00;
     color: #0a0f2b;
     padding: 8px 20px;
     border-radius: 30px;
     font-weight: bold;
     font-size: 1.2rem;
-    box-shadow: 0 0 15px rgba(0, 170, 255, 0.7);
+    box-shadow: 0 0 15px rgba(21, 255, 0, 0.7);
 }
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(10, 15, 43, 0.9), rgba(10, 15, 43, 0.9)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background: linear-gradient(rgba(11, 43, 10, 0.9), rgba(10, 43, 38, 0.9)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
     background-size: cover;
     background-position: center;
     padding: 80px 20px;
     text-align: center;
     margin: 30px 0;
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(0, 170, 255, 0.3);
+    box-shadow: 0 0 30px rgba(51, 255, 0, 0.3);
 }
 
 .hero-section h2 {
     font-size: 3rem;
     margin-bottom: 20px;
     color: #ffffff;
-    text-shadow: 0 0 15px rgba(0, 170, 255, 0.8);
+    text-shadow: 0 0 15px rgba(30, 255, 0, 0.8);
 }
 
 .hero-section p {
     font-size: 1.3rem;
     max-width: 800px;
     margin: 0 auto 30px;
-    color: #d0eaff;
+    color: #d0ffd4;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #00aaff;
-    color: #0a0f2b;
+    background-color: #00ff15;
+    color: #0d2b0a;
     padding: 15px 40px;
     font-size: 1.3rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 50px;
     transition: all 0.3s ease;
-    box-shadow: 0 0 20px rgba(0, 170, 255, 0.7);
+    box-shadow: 0 0 20px rgba(21, 255, 0, 0.7);
 }
 
 .cta-button:hover {
-    background-color: #0099ee;
+    background-color: #08ee00;
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 170, 255, 0.9);
+    box-shadow: 0 10px 25px rgba(51, 255, 0, 0.9);
 }
 
 /* Content Sections */
 .section-title {
     font-size: 2.2rem;
-    color: #00aaff;
+    color: #09ff00;
     margin-bottom: 30px;
     text-align: center;
     position: relative;
@@ -170,7 +170,7 @@ nav {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background-color: #00aaff;
+    background-color: #09ff00;
 }
 
 .info-section {
@@ -181,7 +181,7 @@ nav {
 }
 
 .info-card {
-    background-color: #1a2b5f;
+    background-color: #225f1a;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -193,7 +193,7 @@ nav {
 }
 
 .info-card h3 {
-    color: #00aaff;
+    color: #00ff22;
     font-size: 1.8rem;
     margin-bottom: 20px;
     display: flex;
@@ -206,18 +206,18 @@ nav {
 }
 
 .info-card p {
-    color: #d0eaff;
+    color: #d2ffd0;
     font-size: 1.1rem;
     margin-bottom: 15px;
 }
 
 .quirk-info {
-    background: linear-gradient(135deg, #1a2b5f 0%, #0a0f2b 100%);
-    border-left: 5px solid #00aaff;
+    background: linear-gradient(135deg, #1a5f1e 0%, #0a2b0c 100%);
+    border-left: 5px solid #09ff00;
 }
 
 .quirk-info ul {
-    color: #d0eaff;
+    color: #d0ffd4;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -235,16 +235,16 @@ nav {
 }
 
 .stat-card {
-    background-color: rgba(0, 170, 255, 0.1);
+    background-color: rgba(21, 255, 0, 0.1);
     border-radius: 10px;
     padding: 25px;
     text-align: center;
-    border: 2px solid rgba(0, 170, 255, 0.3);
+    border: 2px solid rgba(9, 255, 0, 0.3);
 }
 
 .stat-number {
     font-size: 3rem;
-    color: #00aaff;
+    color: #09ff00;
     font-weight: bold;
     margin-bottom: 10px;
     text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
@@ -252,7 +252,7 @@ nav {
 
 .stat-label {
     font-size: 1.2rem;
-    color: #aaddff;
+    color: #b1ffaa;
 }
 
 .footer-content {
@@ -287,6 +287,6 @@ nav {
 }
 
 a {
-    color: #00aaff;
+    color: #1eff00;
     text-decoration: none;
 }
